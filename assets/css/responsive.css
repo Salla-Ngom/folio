@@ -34,7 +34,22 @@
 	h4 {
 		font-size: 24px;
 	}
-
+h1.barre-verticale {
+  margin-left: 1.2%;
+margin-top: -1%;
+  position: relative;
+  padding-left: 20px; /* Espace pour la barre verticale */
+  font-size: 24px; /* Taille de police pour le titre h1 
+  color: transparent; /* Rendre le texte transparent pour afficher les lettres multicolores */
+}
+@keyframes defileTexte {
+  0% {
+    left: 300%; /* Texte caché à droite */
+  }
+  100% {
+    left: 50%; /* Texte caché à gauche, revenant à la position initiale */
+  }
+}
 	/* Buttons */ 
 	.btn {
 	    min-width: 120px;
@@ -139,6 +154,15 @@
 	h4 {
 		font-size: 20px;
 	}
+	
+	@keyframes defileTexte {
+  0% {
+    left: 10%; /* Texte caché à droite */
+  }
+  100% {
+    left: 2%; /* Texte caché à gauche, revenant à la position initiale */
+  }
+}
 
 	/* Buttons */ 
 	.btn {
@@ -406,6 +430,22 @@
 	.visible-xxs {
 		display: block;
 	}
+	h1.barre-verticale {
+  margin-left: 1.2%;
+margin-top: -1%;
+  position: relative;
+  padding-left: 20px; /* Espace pour la barre verticale */
+  font-size: 24px; /* Taille de police pour le titre h1 
+  color: transparent; /* Rendre le texte transparent pour afficher les lettres multicolores */
+}
+@keyframes defileTexte {
+  0% {
+    left: 20%; /* Texte caché à droite */
+  }
+  100% {
+    left: 3%; /* Texte caché à gauche, revenant à la position initiale */
+  }
+}
 
 	/* HERO
 	================================================== */
